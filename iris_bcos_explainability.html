@@ -9906,7 +9906,7 @@ Updated Domain Applicability Calculation:
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In [56]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In [61]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
 <div class="cm-editor cm-s-jupyter">
 <div class="highlight hl-ipython3"><pre><span></span><span class="c1"># Final conclusions and insights</span>
@@ -10064,13 +10064,6 @@ Updated Domain Applicability Calculation:
     <span class="n">standard_transparency</span>
 <span class="p">)</span> <span class="o">/</span> <span class="mf">4.0</span>
 
-<span class="nb">print</span><span class="p">(</span><span class="sa">f</span><span class="s2">"Domain Applicability Calculation (Data-Driven from Actual Testing):"</span><span class="p">)</span>
-<span class="nb">print</span><span class="p">(</span><span class="sa">f</span><span class="s2">"  B-cos scores: Built-in=</span><span class="si">{</span><span class="n">bcos_built_in_explainability</span><span class="si">:</span><span class="s2">.3f</span><span class="si">}</span><span class="s2">, Feature=</span><span class="si">{</span><span class="n">bcos_feature_clarity</span><span class="si">:</span><span class="s2">.3f</span><span class="si">}</span><span class="s2">, Confidence=</span><span class="si">{</span><span class="n">bcos_confidence_reliability</span><span class="si">:</span><span class="s2">.3f</span><span class="si">}</span><span class="s2">, Transparency=</span><span class="si">{</span><span class="n">bcos_transparency</span><span class="si">:</span><span class="s2">.3f</span><span class="si">}</span><span class="s2">"</span><span class="p">)</span>
-<span class="nb">print</span><span class="p">(</span><span class="sa">f</span><span class="s2">"  Standard scores: Built-in=</span><span class="si">{</span><span class="n">standard_built_in_explainability</span><span class="si">:</span><span class="s2">.3f</span><span class="si">}</span><span class="s2">, Feature=</span><span class="si">{</span><span class="n">standard_feature_clarity</span><span class="si">:</span><span class="s2">.3f</span><span class="si">}</span><span class="s2">, Confidence=</span><span class="si">{</span><span class="n">standard_confidence_reliability</span><span class="si">:</span><span class="s2">.3f</span><span class="si">}</span><span class="s2">, Transparency=</span><span class="si">{</span><span class="n">standard_transparency</span><span class="si">:</span><span class="s2">.3f</span><span class="si">}</span><span class="s2">"</span><span class="p">)</span>
-<span class="nb">print</span><span class="p">(</span><span class="sa">f</span><span class="s2">"  Final Domain Applicability: B-cos=</span><span class="si">{</span><span class="n">bcos_domain_applicability</span><span class="si">:</span><span class="s2">.3f</span><span class="si">}</span><span class="s2">, Standard=</span><span class="si">{</span><span class="n">standard_domain_applicability</span><span class="si">:</span><span class="s2">.3f</span><span class="si">}</span><span class="s2">"</span><span class="p">)</span>
-
-<span class="c1">#bcos_scores = [bcos_performance, bcos_built_in_explainability_score, bcos_efficiency_normalized, bcos_implementation_ease, bcos_domain_applicability]</span>
-<span class="c1">#standard_scores = [standard_performance, standard_built_in_explainability_score, standard_efficiency_normalized, standard_implementation_ease, standard_domain_applicability]</span>
 
 
 <span class="nb">print</span><span class="p">(</span><span class="sa">f</span><span class="s2">"</span><span class="se">\n</span><span class="s2">=== PROJECT COMPLETION ==="</span><span class="p">)</span>
@@ -10081,22 +10074,6 @@ Updated Domain Applicability Calculation:
 <span class="nb">print</span><span class="p">(</span><span class="s2">"✅ Ready for production use in explainable AI applications"</span><span class="p">)</span>
 
 
-<span class="c1"># Calculate domain applicability using simple average (no weights)</span>
-<span class="c1"># Simple approach: average of all criteria scores</span>
-
-<span class="n">bcos_domain_applicability</span> <span class="o">=</span> <span class="p">(</span>
-    <span class="n">bcos_built_in_explainability</span> <span class="o">+</span>
-    <span class="n">bcos_feature_clarity</span> <span class="o">+</span>
-    <span class="n">bcos_confidence_reliability</span> <span class="o">+</span>
-    <span class="n">bcos_transparency</span>
-<span class="p">)</span> <span class="o">/</span> <span class="mf">4.0</span>
-
-<span class="n">standard_domain_applicability</span> <span class="o">=</span> <span class="p">(</span>
-    <span class="n">standard_built_in_explainability</span> <span class="o">+</span>
-    <span class="n">standard_feature_clarity</span> <span class="o">+</span>
-    <span class="n">standard_confidence_reliability</span> <span class="o">+</span>
-    <span class="n">standard_transparency</span>
-<span class="p">)</span> <span class="o">/</span> <span class="mf">4.0</span>
 
 <span class="nb">print</span><span class="p">(</span><span class="sa">f</span><span class="s2">"Domain Applicability Calculation (Simple Average):"</span><span class="p">)</span>
 <span class="nb">print</span><span class="p">(</span><span class="sa">f</span><span class="s2">"  B-cos scores: Built-in=</span><span class="si">{</span><span class="n">bcos_built_in_explainability</span><span class="si">:</span><span class="s2">.3f</span><span class="si">}</span><span class="s2">, Feature=</span><span class="si">{</span><span class="n">bcos_feature_clarity</span><span class="si">:</span><span class="s2">.3f</span><span class="si">}</span><span class="s2">, Confidence=</span><span class="si">{</span><span class="n">bcos_confidence_reliability</span><span class="si">:</span><span class="s2">.3f</span><span class="si">}</span><span class="s2">, Transparency=</span><span class="si">{</span><span class="n">bcos_transparency</span><span class="si">:</span><span class="s2">.3f</span><span class="si">}</span><span class="s2">"</span><span class="p">)</span>
@@ -10166,10 +10143,6 @@ Computational Efficiency Calculation (Parameters + Training Epochs):
   B-cos: 243 parameters, 82 epochs, efficiency = 46.8400, normalized = 0.543
   Standard: 243 parameters, 43 epochs, efficiency = 86.1830, normalized = 1.000
   Formula: Efficiency = Performance / (Parameters × Epochs) × 1,000,000
-Domain Applicability Calculation (Data-Driven from Actual Testing):
-  B-cos scores: Built-in=0.750, Feature=1.000, Confidence=0.572, Transparency=0.625
-  Standard scores: Built-in=0.250, Feature=0.063, Confidence=0.551, Transparency=0.625
-  Final Domain Applicability: B-cos=0.737, Standard=0.372
 
 === PROJECT COMPLETION ===
 ✅ B-cos explainable AI implementation completed successfully!
@@ -10195,7 +10168,7 @@ Domain Applicability Calculation (Fully Data-Driven):
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In [57]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In [62]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
 <div class="cm-editor cm-s-jupyter">
 <div class="highlight hl-ipython3"><pre><span></span><span class="c1"># Update the final visualization to remove "Ease of Implementation"</span>
