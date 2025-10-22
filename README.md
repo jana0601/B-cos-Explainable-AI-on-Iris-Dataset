@@ -30,8 +30,9 @@ This project demonstrates explainable AI using B-cos (B-cosine) networks on the 
 - Superior interpretability for tabular data
 - **Data-driven explanation capability testing** - actual model capabilities tested rather than manual assignments
 - **Built-in explainability scoring** based on real explanation methods available
-- **Noise-based faithfulness calculation** - scientifically rigorous explainability evaluation with configurable noise levels
-- **Streamlined comparison metrics** - focused on 4 essential evaluation criteria
+- **Multi-layer B-cos analysis** - comprehensive analysis using both first and second layers with proper shape mapping
+- **Consistent interpretability metrics** - unified approach for faithfulness, sparsity, and stability calculations
+- **Last-layer stability analysis** - focused stability evaluation using final layer contributions
 
 ## Usage
 The main notebook (`iris_bcos_explainability.ipynb`) contains:
@@ -42,7 +43,8 @@ The main notebook (`iris_bcos_explainability.ipynb`) contains:
 - Advanced visualizations
 - **Data-driven explanation capability testing**
 - **Built-in explainability assessment**
-- **Noise-based faithfulness and stability metrics**
+- **Multi-layer faithfulness and sparsity metrics**
+- **Last-layer stability metrics**
 - **Streamlined 4-metric comparison visualization**
 
 ## Export Options
@@ -58,7 +60,7 @@ The project includes multiple export formats:
 - **Size**: 1.6MB
 - **Content**: Complete analysis with all visualizations and results
 - **Generated**: Using Jupyter nbconvert with Playwright
-- **Includes**: Data-driven explanation capability testing results, noise-based faithfulness metrics, streamlined 4-metric comparison
+- **Includes**: Data-driven explanation capability testing results, multi-layer B-cos analysis, consistent interpretability metrics, streamlined 4-metric comparison
 
 ## Results Summary
 
@@ -85,7 +87,7 @@ The project includes multiple export formats:
 3. **No manual assignments - all scores calculated from real testing**
 4. **Transparent feature importance without post-hoc methods**
 5. **Ideal for domains requiring model explanations**
-6. **Noise-based faithfulness provides scientifically rigorous evaluation with configurable noise levels**
+6. **Multi-layer B-cos analysis provides comprehensive interpretability evaluation**
 7. **Streamlined 4-metric comparison focuses on essential criteria**
 
 ## Requirements
