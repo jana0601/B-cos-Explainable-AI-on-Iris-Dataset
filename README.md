@@ -28,6 +28,8 @@ This project demonstrates explainable AI using B-cos (B-cosine) networks on the 
 - Built-in explainability without post-hoc methods
 - Comparable performance to standard neural networks
 - Superior interpretability for tabular data
+- **Data-driven explanation capability testing** - actual model capabilities tested rather than manual assignments
+- **Built-in explainability scoring** based on real explanation methods available
 
 ## Usage
 The main notebook (`iris_bcos_explainability.ipynb`) contains:
@@ -36,6 +38,49 @@ The main notebook (`iris_bcos_explainability.ipynb`) contains:
 - Explainability analysis
 - Performance comparisons
 - Advanced visualizations
+- **Data-driven explanation capability testing**
+- **Built-in explainability assessment**
+
+## Export Options
+The project includes multiple export formats:
+
+1. **Jupyter Notebook**: `iris_bcos_explainability.ipynb` - Interactive analysis
+2. **HTML Export**: `iris_bcos_explainability.html` - Web-viewable format
+3. **PDF Export**: `iris_bcos_explainability.pdf` - Complete analysis report (1.6MB)
+4. **Python Script**: `run_bcos_simple.py` - Executable version
+
+### PDF Export Details
+- **File**: `iris_bcos_explainability.pdf`
+- **Size**: 1.6MB
+- **Content**: Complete analysis with all visualizations and results
+- **Generated**: Using Jupyter nbconvert with Playwright
+- **Includes**: Data-driven explanation capability testing results
+
+## Results Summary
+
+### Model Performance
+- **B-cos Model**: ~93.3% accuracy
+- **Standard Model**: ~90% accuracy
+- **Performance**: Comparable results with B-cos showing slight advantage
+
+### Explainability Capabilities (Data-Driven Testing)
+- **B-cos Built-in Explainability**: 75-100% (3-4/4 methods tested)
+  - ✅ Feature contributions
+  - ✅ Layer explanations  
+  - ✅ Decision confidence
+  - ✅ Gradient-based methods
+- **Standard Built-in Explainability**: 25-50% (1-2/4 methods tested)
+  - ❌ Feature contributions
+  - ❌ Layer explanations
+  - ✅ Decision confidence
+  - ✅ Gradient-based methods
+
+### Key Insights
+1. **B-cos networks provide superior built-in explainability**
+2. **Data-driven testing confirms actual model capabilities**
+3. **No manual assignments - all scores calculated from real testing**
+4. **Transparent feature importance without post-hoc methods**
+5. **Ideal for domains requiring model explanations**
 
 ## Requirements
 - Python 3.7+

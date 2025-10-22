@@ -2,19 +2,15 @@
   "bcos_accuracy": 0.9333333333333333,
   "standard_accuracy": 0.9,
   "bcos_metrics": {
-    "faithfulness": 0.0,
-    "stability": 0.991968066319181,
-    "sparsity": 9.2,
-    "faithfulness_std": 0.0,
-    "stability_std": 0.00386173887275646,
+    "average_confidence": 0.9224858105182647,
+    "confidence_std": 0.12102738221889633,
+    "average_sparsity": 9.2,
     "sparsity_std": 2.4684678108764824
   },
   "standard_metrics": {
-    "faithfulness": 0.0,
-    "stability": 0.0,
-    "sparsity": 0.0,
-    "faithfulness_std": 0.0,
-    "stability_std": 0.0,
+    "average_confidence": 0.9567425608634949,
+    "confidence_std": 0.10327486735235315,
+    "average_sparsity": 0.0,
     "sparsity_std": 0.0
   },
   "class_importance": {
