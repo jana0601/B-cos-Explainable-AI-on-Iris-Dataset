@@ -30,6 +30,8 @@ This project demonstrates explainable AI using B-cos (B-cosine) networks on the 
 - Superior interpretability for tabular data
 - **Data-driven explanation capability testing** - actual model capabilities tested rather than manual assignments
 - **Built-in explainability scoring** based on real explanation methods available
+- **Perturbation-based faithfulness calculation** - scientifically rigorous explainability evaluation
+- **Streamlined comparison metrics** - focused on 4 essential evaluation criteria
 
 ## Usage
 The main notebook (`iris_bcos_explainability.ipynb`) contains:
@@ -40,6 +42,8 @@ The main notebook (`iris_bcos_explainability.ipynb`) contains:
 - Advanced visualizations
 - **Data-driven explanation capability testing**
 - **Built-in explainability assessment**
+- **Perturbation-based faithfulness and stability metrics**
+- **Streamlined 4-metric comparison visualization**
 
 ## Export Options
 The project includes multiple export formats:
@@ -54,7 +58,7 @@ The project includes multiple export formats:
 - **Size**: 1.6MB
 - **Content**: Complete analysis with all visualizations and results
 - **Generated**: Using Jupyter nbconvert with Playwright
-- **Includes**: Data-driven explanation capability testing results
+- **Includes**: Data-driven explanation capability testing results, perturbation-based faithfulness metrics, streamlined 4-metric comparison
 
 ## Results Summary
 
@@ -81,6 +85,8 @@ The project includes multiple export formats:
 3. **No manual assignments - all scores calculated from real testing**
 4. **Transparent feature importance without post-hoc methods**
 5. **Ideal for domains requiring model explanations**
+6. **Perturbation-based faithfulness provides scientifically rigorous evaluation**
+7. **Streamlined 4-metric comparison focuses on essential criteria**
 
 ## Requirements
 - Python 3.7+
