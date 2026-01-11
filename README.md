@@ -69,17 +69,8 @@ The project includes multiple export formats:
 - **Standard Model**: ~90% accuracy
 - **Performance**: Comparable results with B-cos showing slight advantage
 
-### Explainability Capabilities (Data-Driven Testing)
-- **B-cos Built-in Explainability**: 75-100% (3-4/4 methods tested)
-  - ✅ Feature contributions
-  - ✅ Layer explanations  
-  - ✅ Decision confidence
-  - ✅ Gradient-based methods
-- **Standard Built-in Explainability**: 25-50% (1-2/4 methods tested)
-  - ❌ Feature contributions
-  - ❌ Layer explanations
-  - ✅ Decision confidence
-  - ✅ Gradient-based methods
+
+
 
 ### Key Insights
 1. **B-cos networks provide superior built-in explainability**
