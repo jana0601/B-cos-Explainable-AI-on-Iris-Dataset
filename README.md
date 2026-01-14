@@ -3,14 +3,6 @@
 ## Overview
 This project demonstrates explainable AI using B-cos (B-cosine) networks on the Iris dataset. B-cos networks provide inherent interpretability through their cosine similarity-based computations, making them ideal for understanding model decisions.
 
-## Features
-- Comprehensive exploratory data analysis
-- B-cos neural network implementation
-- Standard neural network for comparison
-- Advanced explainability visualizations
-- Interpretability metrics and analysis
-- Interactive plots and decision boundaries
-
 ## Setup Instructions
 
 1. **Install Dependencies**:
@@ -54,13 +46,6 @@ The project includes multiple export formats:
 2. **HTML Export**: `iris_bcos_explainability.html` - Web-viewable format
 3. **PDF Export**: `iris_bcos_explainability.pdf` - Complete analysis report (1.6MB)
 4. **Python Script**: `run_bcos_simple.py` - Executable version
-
-### PDF Export Details
-- **File**: `iris_bcos_explainability.pdf`
-- **Size**: 1.6MB
-- **Content**: Complete analysis with all visualizations and results
-- **Generated**: Using Jupyter nbconvert with Playwright
-- **Includes**: Data-driven explanation capability testing results, multi-layer B-cos analysis, consistent interpretability metrics, streamlined 4-metric comparison
 
 ## Results Summary
 
